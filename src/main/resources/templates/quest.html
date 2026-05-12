@@ -12,8 +12,8 @@
         <p th:text="${text}">Текст вопроса</p>
 
         <div class="buttons">
-            <a class="btn yes" th:href="@${nextUrl}" th:text="${yesText}">Да</a>
-            <a class="btn no" th:href="${#}" th:text="${noText}">Нет</a>
+            <a class="btn yes" th:href="@{${nextUrl}}" th:text="${yesText}">Да</a>
+            <a class="btn no" href="#" th:text="${noText}">Нет</a>
         </div>
     </div>
 </body>
