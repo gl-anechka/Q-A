@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/quest.css">
+</head>
+<body>
+    <div class="card">
+        <img class="main-image" th:src="${image}" alt="Картинка">
+        <h1 th:text="${title}">Ура</h1>
+        <p th:text="${text}">Финальный текст</p>
+        <a class="btn yes" href="/">Начать заново</a>
+    </div>
+</body>
+</html>
