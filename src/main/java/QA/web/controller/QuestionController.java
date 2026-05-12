@@ -21,7 +21,7 @@ public class QuestionController {
         model.addAttribute("image", "/images/photo1.png");
         model.addAttribute("nextUrl", "/step2");
         model.addAttribute("yesText", "ДА!");
-        model.addAttribute("noText", "Конечно!");
+        model.addAttribute("noText", "Ну да");
 
         return "quest";
     }
@@ -43,8 +43,8 @@ public class QuestionController {
         model.addAttribute("text", "Иначе буду кусаться >_<");
         model.addAttribute("image", "/images/photo3.png");
         model.addAttribute("nextUrl", "/final");
-        model.addAttribute("yesText", "Продолжаем");
-        model.addAttribute("noText", "Нет");
+        model.addAttribute("yesText", "Уверен!");
+        model.addAttribute("noText", "Можно обратно?");
 
         return "quest";
     }
